@@ -13,45 +13,4 @@
       shares="{{item.shares}}"
     ></post>
   </view>
-  <view class="weui-cells post-header-cells">
-    <view aria-labelledby="b1_txt1" aria-describedby="b1_n1" class="weui-cell weui-cell_active" aria-role="option">
-			<view class="weui-cell__hd" aria-hidden="true">
-				<image src="{{post[0].avatar}}" alt></image>
-			</view>
-			<view class="weui-cell__bd" aria-hidden="true" id="b1_txt1">
-				<text class="demo_badge_title">{{post[0].nickname}}</text>
-				<view class="demo_badge_desc">{{post[0].address}}</view>
-			</view>
-      <view class="weui-cell__footer" aria-hidden="true" id="b1_txt1">
-				<view class="demo_badge_desc">{{post[0].date}}</view>
-			</view>
-		</view>
-	</view>
-  <view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
-    <view>
-      {{post[0].content}}
-    </view>
-    <text id="txt2" class="weui-a11y-combo__content weui-link weui-wa-hotarea">查看贴文</text>
-  </view>
-  <view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
-    <view class="weui-grids">
-      <navigator wx:for="{{post[0].images}}" class="weui-grid" aria-role="button" url="javascript:" style="padding: 0">
-        <image src="{{item}}" style="height: 6rem; width: 6.8rem;" alt></image>
-      </navigator>
-	  </view>
-  </view>
-  <view class="weui-flex">
-    <view class="weui-flex__item"><view class="placeholder">
-      <mp-icon icon="like"></mp-icon>
-      <text class="post-stat">{{post[0].likes}}</text>
-    </view></view>
-		<view class="weui-flex__item"><view class="placeholder">
-      <mp-icon icon="comment"></mp-icon>
-      <text class="post-stat">{{post[0].comments}}</text>
-    </view></view>
-		<view class="weui-flex__item"><view class="placeholder">
-      <mp-icon icon="share"></mp-icon>
-      <text class="post-stat">{{post[0].shares}}</text>
-    </view></view>
-	</view>
 </scroll-view>

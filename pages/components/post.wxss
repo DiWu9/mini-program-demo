@@ -2,6 +2,9 @@
  image {
   height:50px
  }
+ .post-header-cells {
+  background-color:#333;
+ }
  .weui-cells .demo_badge_tips {
    font-size: 1rem;
    vertical-align: middle;
@@ -31,15 +34,15 @@
  }
  .post-header-cells .weui-cell__bd .demo_badge_title {
    font-size:1rem;
-   color:#000
+   color:#FFF
  }
  .post-header-cells .weui-cell__bd .demo_badge_desc {
    font-size:0.7647058823529411rem;
-   color:#888
+   color:#CECECE
  }
  .post-header-cells .weui-cell__footer .demo_badge_desc {
    font-size:0.7647058823529411rem;
-   color:#888
+   color:#FFF
  }
  .page {
    background-color: var(--weui-BG-2);
@@ -47,7 +50,6 @@
  }
  .placeholder {
    text-align:center;
-   background-color:var(--weui-BG-1);
    color:var(--weui-FG-1)
  }
  .placeholder .post-stat {
