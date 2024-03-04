@@ -18,13 +18,21 @@ Page({
         nickname: 'username_1',
         address: '华中师范大学',
         date: '2023年10月26日 13:26',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dol',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         images: [
-          'https://thumbs.dreamstime.com/b/black-white-illustration-high-resolution-square-format-definition-repeated-geometric-shapes-covering-background-190854196.jpg',
-          'https://thumbs.dreamstime.com/b/black-white-illustration-high-resolution-square-format-definition-repeated-geometric-shapes-covering-background-190854748.jpg',
-          'https://thumbs.dreamstime.com/b/black-white-illustration-high-resolution-square-format-definition-bas-relief-repetitive-geometric-shapes-covering-166663515.jpg',
-          'https://thumbs.dreamstime.com/b/black-white-illustration-high-resolution-square-format-definition-repeated-geometric-shapes-covering-background-172058903.jpg'
-        ]
+          'https://cdn.naturettl.com/wp-content/uploads/2019/08/30182353/how-to-photograph-black-and-white-landscapes-5-800x800.jpg',
+          'https://cdn.naturettl.com/wp-content/uploads/2019/09/13140717/ideas-autumn-landscape-photography-9-800x800.jpg',
+          'https://avatarfiles.alphacoders.com/104/104379.jpg',
+          'https://www.fubiz.net/wp-content/uploads/2013/11/Ocean-Landscapes-Photography-4.jpg',
+          'https://www.rxwallpaper.site/wp-content/uploads/beautiful-autumn-landscape-1920x1200-wallpaper-wallpapers-800x800.jpg',
+          'https://www.rxwallpaper.site/wp-content/uploads/beautiful-hd-wallpapers-wide-1080p-wallpapersafari-3-800x800.jpg',
+          'https://121clicks.com/wp-content/uploads/2020/06/infrared_silence_long_exposure_photography_nathan_wirth_01.jpg',
+          'https://www.rxwallpaper.site/wp-content/uploads/40-landscape-wallpaper-800x800.jpg',
+          'https://pixel-creation.com/wp-content/uploads/free-fantasy-landscape-wallpaper-widescreen-long-wallpapers-800x800.jpg'
+        ],
+        likes: 55,
+        comments: 10,
+        shares: 20,
       },
     ]
   },

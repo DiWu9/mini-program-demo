@@ -14,4 +14,33 @@
 			</view>
 		</view>
 	</view>
+  <view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+    <view>
+      {{post[0].content}}
+    </view>
+    <text id="txt2" class="weui-a11y-combo__content weui-link weui-wa-hotarea">查看贴文</text>
+  </view>
+  <view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+    <view class="weui-grids">
+      <navigator wx:for="{{post[0].images}}" class="weui-grid" aria-role="button" url="javascript:" style="padding: 0">
+        <image src="{{item}}" style="height: 6rem; width: 6.8rem;" alt></image>
+      </navigator>
+	  </view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="weui-flex">
+			<view class="weui-flex__item"><view class="placeholder">
+        <text title="成功" aria-describedby="tip_1" class="weui-icon-success weui-icon_msg" aria-role="img"></text>
+        <text>{{post[0].likes}}</text>
+      </view></view>
+			<view class="weui-flex__item"><view class="placeholder">
+        <text title="成功" aria-describedby="tip_1" class="weui-icon-success weui-icon_msg" aria-role="img"></text>
+        <text>{{post[0].comments}}</text>
+      </view></view>
+			<view class="weui-flex__item"><view class="placeholder">
+        <text title="成功" aria-describedby="tip_1" class="weui-icon-success weui-icon_msg" aria-role="img"></text>
+        <text>{{post[0].shares}}</text>
+      </view></view>
+		</view>
+	</view>
 </scroll-view>
