@@ -14,34 +14,34 @@
     margin-left:5px;
     margin-right:5px
   }
-  .demo_badge_cells .weui-cell__hd {
+  .post-header-cells .weui-cell__hd {
     position:relative;
     margin-right:10px
   }
-  .demo_badge_cells .weui-cell__hd image {
+  .post-header-cells .weui-cell__hd image {
     width: 50px;
     display: block
   }
-  .demo_badge_cells .weui-cell__hd .weui-badge {
+  .post-header-cells .weui-cell__hd .weui-badge {
     position: absolute;
     top: -.4em;
     right: -.4em
   }
-  .demo_badge_cells .weui-cell__bd {
+  .post-header-cells .weui-cell__bd {
     vertical-align: middle
   }
-  .demo_badge_cells .weui-cell__bd .demo_badge_title + .weui-badge {
+  .post-header-cells .weui-cell__bd .demo_badge_title + .weui-badge {
     margin-left:5px
   }
-  .demo_badge_cells .weui-cell__bd .demo_badge_title {
+  .post-header-cells .weui-cell__bd .demo_badge_title {
     font-size:1rem;
     color:#000
   }
-  .demo_badge_cells .weui-cell__bd .demo_badge_desc {
+  .post-header-cells .weui-cell__bd .demo_badge_desc {
     font-size:0.7647058823529411rem;
     color:#888
   }
-  .demo_badge_cells .weui-cell__footer .demo_badge_desc {
+  .post-header-cells .weui-cell__footer .demo_badge_desc {
     font-size:0.7647058823529411rem;
     color:#888
   }
@@ -50,11 +50,13 @@
     padding: 1% 5%;
   }
   .placeholder {
-    margin:5px;
-    padding:0 10px;
     text-align:center;
     background-color:var(--weui-BG-1);
-    height:2.3em;
-    line-height:2.3em;
     color:var(--weui-FG-1)
+  }
+  .placeholder .post-stat {
+    color:#000;
+    font-weight: bold;
+    padding: 3%;
+    font-size: 0.85rem;
   }
