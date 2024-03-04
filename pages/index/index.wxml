@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="weui-cells demo_badge_cells">
+    <view aria-labelledby="b1_txt1" aria-describedby="b1_n1" class="weui-cell weui-cell_active" aria-role="option">
+			<view class="weui-cell__hd" aria-hidden="true">
+				<image src="{{post[0].avatar}}" alt></image>
+			</view>
+			<view class="weui-cell__bd" aria-hidden="true" id="b1_txt1">
+				<text class="demo_badge_title">{{post[0].nickname}}</text>
+				<view class="demo_badge_desc">{{post[0].address}}</view>
+			</view>
+      <view class="weui-cell__footer" aria-hidden="true" id="b1_txt1">
+				<view class="demo_badge_desc">{{post[0].date}}</view>
+			</view>
+		</view>
+	</view>
+</scroll-view>
