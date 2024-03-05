@@ -1,16 +1,3 @@
 <!--index.wxml-->
 <scroll-view class="scrollarea" scroll-y type="list">
-  <view wx:for="{{post}}">
-    <post
-      avatar="{{item.avatar}}"
-      nickname="{{item.nickname}}"
-      address="{{item.address}}"
-      date="{{item.date}}"
-      content="{{item.content}}"
-      images="{{item.images}}"
-      likes="{{item.likes}}"
-      comments="{{item.comments}}"
-      shares="{{item.shares}}"
-    ></post>
-  </view>
 </scroll-view>
